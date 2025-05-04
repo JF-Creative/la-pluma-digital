@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import "@/styles/project.css";
-import data from "@/data/combeima.json";
+import {data} from "@/data/combeima";
 import { useState } from "react";
 
 export default function Pia2025() {

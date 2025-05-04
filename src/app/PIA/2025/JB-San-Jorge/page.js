@@ -1,5 +1,5 @@
 "use client"
-import data from "@/data/sanJorge.json";
+import {data} from "@/data/sanJorge";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Link from "next/link";

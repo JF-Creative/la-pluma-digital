@@ -1,4 +1,4 @@
-[
+export const data = [
   {
     "projectName": "Historia del Jardín Botánico San Jorge",
     "projectDescription": "Trabajo elaborado desde una mirada histórica de este importante punto turístico de la ciudad de Ibagué. Se realizó un sitio web que muestra contenido relacionado sobre este tema.",

@@ -1,5 +1,5 @@
 import LogosBN from "@/components/LogosBN";
-import footerData from "@/data/footer.json";
+import {footerData} from "@/data/footer";
 import Link from "next/link";
 import Image from "next/image";
 import "@/styles/footer.css";
