@@ -30,7 +30,6 @@
     backdrop-filter: blur(7.8px);
     border: 1px solid rgba(157, 150, 150, 0.62);
     width: 80%;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +47,7 @@
 .img-container {
     position: relative;
     width: 80%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16/9;
     overflow: hidden;
     border-radius: 12px;
 }
