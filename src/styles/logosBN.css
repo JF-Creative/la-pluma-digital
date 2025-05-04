@@ -1,0 +1,24 @@
+.logos-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.logoBN {
+    object-fit: contain;
+}
+
+.separata{
+    height: 100%;
+    width: 4px;
+    background-color: white;
+}

@@ -1,0 +1,70 @@
+{
+  "materias": [
+    {
+        "info": {
+          "idSemestre": "Primer Semestre",
+          "tema": "Panóptico de Ibagué",
+          "cursos": [
+            "Historia Universal del Periodismo",
+            "Lenguaje Visual y Sonoro",
+            "Diseño Básico",
+            "Fundamentos de Fotografía"			
+          ]
+        },
+        "redirect":"Panoptico",
+        "cardImg":{
+            "src":"https://revistaaxxis.com.co/wp-content/uploads/2022/08/panoptico_ibague_1.jpg",
+            "alt":"Panóptico de Ibagué - Imagen de Revista Axxis"
+        }
+      },
+      {
+        "info": {
+          "idSemestre": "Segundo Semestre",
+          "tema": "Museo de Arte del Tolima",
+          "cursos": [
+            "Investigación en Comunicación",
+            "Reportería Gráfica",
+            "Creación Básico"		
+          ]
+        },
+        "redirect":"MAT",
+        "cardImg":{
+            "src":"https://museodata.com/images/museums/Fachada_MAT.jpg",
+            "alt":"Museo de Arte del Tolima - Imagen de museodata.com"
+        }
+      },
+      {
+      "info": {
+        "idSemestre": "Tercer Semestre",
+        "tema": "Jardín Botánico",
+        "cursos": [
+          "Periodismo Digital",
+          "Producción de Contenidos Informativos",
+          "Taller de Televisión Básica",
+          "Producción Digital"
+        ]
+      },
+      "redirect":"JB-San-Jorge",
+      "cardImg":{
+        "src":"https://elcronista.co/assets/media/t45gy56uh677ji778ko89lp9l90lp90n0n0n0.jpg?u=1599606460",
+        "alt":"Jardín Botánico San Jorge - Imagen de ElCronista.com"
+      }
+    },
+    {
+      "info": {
+        "idSemestre": "Cuarto Semestre",
+        "tema": "Cañón del Combeima",
+        "cursos": [
+          "Estadística social",
+          "Producción de Radio y Televisión",
+          "Diseño Digital para la Web"
+        ]
+      },
+      "redirect":"Canon-Combeima",
+      "cardImg":{
+        "src":"https://toursmiramar.com/wp-content/uploads/2023/07/IMG_7514-scaled.jpg",
+        "alt":"Cañón del Combeima - Imagen tomada de toursmiramar.com"
+      }
+    }
+  ]
+}

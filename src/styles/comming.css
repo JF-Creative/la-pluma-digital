@@ -1,0 +1,33 @@
+.section-container {
+    width: 100%;
+    min-height: calc(100vh - 200px);
+    background-color: rgba(0, 0, 0, 0.823);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+    .comingSoon {
+        background-color: #f9f9f9;
+        border: 2px dashed #ccc;
+        border-radius: 12px;
+        padding: 2rem;
+        text-align: center;
+        margin: 2rem auto;
+        max-width: 600px;
+        font-family: 'Montserrat', sans-serif;
+        color: #444;
+    }
+
+    .comingSoon h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    .comingSoon p {
+        font-size: 1rem;
+        color: #666;
+    }

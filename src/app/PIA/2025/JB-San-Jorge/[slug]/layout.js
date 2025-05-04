@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import LayoutWrapper from "@/components/LayoutWrapper";
 
 export const metadata = {
   title: "La Pluma Digital",
@@ -10,9 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-        <>
-          <LayoutWrapper>{children}</LayoutWrapper>
-        </>
+        {children}
       </body>
     </html>
   );
