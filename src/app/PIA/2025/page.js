@@ -1,5 +1,5 @@
 "use client"
-import { materias } from "@/data/pia2025.json";
+import { materias as dataMaterias } from "@/data/pia2025";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -11,7 +11,7 @@ export default function Pia2025() {
   return (
     <div className="sec-container">
       <div className="card_container">
-        {materias.map((item, index) => {
+        {dataMaterias.materias.map((item, index) => {
           const seemore = `${pathName.replace(/\/$/, "")}/${item.redirect}`;
           return (
             <div className="card" key={index}>
