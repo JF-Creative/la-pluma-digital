@@ -2,6 +2,6 @@
 
 export default function Home() {
   return (
-    <div>Hi. I'm the index page, motherfuckers</div>
+    <div>{"Hola. Soy la pagina de inicio. Estoy en construcción en este momento, pero explora el menú de la barra superior."}</div>
   );
 }
