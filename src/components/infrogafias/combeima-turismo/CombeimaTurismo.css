@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.infograph1 {
+  height: 600px;
+  aspect-ratio: 16 / 9;
+  border-radius: 25px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./media/FONDO.png");
+  overflow: hidden;
+  box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+.infContent1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.dataContainer1 {
+  height: 100%;
+  width: 55%;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  padding: 1rem;
+}
+
+.mediaContainer1 {
+  height: 100%;
+  width: 40%;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  padding: 2rem;
+}

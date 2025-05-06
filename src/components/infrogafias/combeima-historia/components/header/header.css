@@ -1,0 +1,43 @@
+.headerInf {
+    width: 100%;
+    height: 15%;
+    background: #774608;
+    background: linear-gradient(90deg, rgba(119, 70, 8, 1) 20%, rgba(255, 255, 255, 0) 100%);
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont1 {
+    height: 100%;
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logoInfContainer {
+    height: 100%;
+    width: 90px;
+    position: relative;
+}
+
+.logoInfHeader {
+    object-fit: contain;
+}
+
+.txtContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.txtContainer h1 {
+    font-size: 100%;
+}
+
+.txtContainer h2 {
+    font-size: 80%;
+}

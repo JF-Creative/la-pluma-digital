@@ -1,0 +1,27 @@
+.headerInfTur {
+    width: 100%;
+    height: 15%;
+    background: #774608;
+    background: #3C584A;
+    background: linear-gradient(90deg, rgba(60, 88, 74, 1) 27%, rgba(255, 255, 255, 0) 100%);
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 2%;
+}
+
+
+.logoInfContainerTur {
+    height: 100%;
+    width: 300px;
+    position: relative;
+}
+
+.logoInfHeader {
+    object-fit: contain;
+}
+
+.refull {
+    flex: 1;
+}

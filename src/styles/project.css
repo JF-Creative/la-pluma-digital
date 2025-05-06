@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 6rem;
     gap: 2rem;
     background: rgba(157, 150, 150, 0.481);
     border-radius: 16px;
@@ -39,9 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid red 1px;
     height: 100%;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 button {
@@ -62,4 +60,11 @@ button {
 
 button:hover {
     background-color: #222;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem
 }
