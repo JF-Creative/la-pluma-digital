@@ -1,6 +1,8 @@
 'use client';
 
 import { useParams } from 'next/navigation';
+import Historia from '@/components/sites/JB_Historia/page'
+
 
 export default function SlugPage() {
   const { slug } = useParams();
@@ -8,7 +10,7 @@ export default function SlugPage() {
   const renderContent = () => {
     switch (slug) {
       case 'historia':
-        return <div>Soy componente historia</div>;
+        return <Historia/>;
       case 'flora-y-fauna':
         return <div>Soy componente flora y fauna</div>;
       default:

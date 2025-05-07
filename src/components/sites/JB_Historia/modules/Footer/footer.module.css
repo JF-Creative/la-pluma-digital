@@ -1,0 +1,60 @@
+.footerInfContainer {
+    width: 100%;
+    height: 150px;
+    background: #536706;
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.description_footer {
+    width: 40%;
+    height: 100%;
+    font-size: 90%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.contacto {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    font-size: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+}
+
+.contacto ul {
+    list-style: none;
+}
+
+.contacto ul li a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.staff {
+    font-size: 1.5em;
+}
+
+.logitos {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2%;
+}
+
+.log_contain{
+    position: relative;
+    width: 500px;
+    height: 100%;
+}
+
+.logoInfFooter{
+    object-fit: contain;
+}
