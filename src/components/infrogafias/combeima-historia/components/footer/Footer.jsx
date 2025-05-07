@@ -7,14 +7,17 @@ export default function Footer() {
     {
       name: "name1",
       mail: "name1@cun.edu.co",
+      mailto: "mailto:name1@cun.edu.co"
     },
     {
       name: "name2",
       mail: "name2@cun.edu.co",
+      mailto: "mailto:name1@cun.edu.co"
     },
     {
       name: "name3",
       mail: "name3@cun.edu.co",
+      mailto: "mailto:name1@cun.edu.co"
     },
   ];
 
