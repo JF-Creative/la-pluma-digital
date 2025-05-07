@@ -40,8 +40,8 @@ export default function Footer() {
       <div className="contacto">
         <h1 className="staff">Elaborado por:</h1>
         <ul>
-          {authors.map((author,index) => (
-            <li key={index}>
+          {authors.map((author) => (
+            <li key={author.mail}>
               {author.name}: <Link href={author.mailto}>{author.mail}</Link>
             </li>
           ))}

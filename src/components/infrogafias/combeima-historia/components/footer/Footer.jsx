@@ -30,8 +30,8 @@ export default function Footer() {
         <h1>Elaborado por:</h1>
         <ul>
           {authors.map((author) => (
-            <li>
-              {author.name}:{author.mail}
+            <li key={author.mail}>
+              {author.name}: <Link href={author.mailto}>{author.mail}</Link>
             </li>
           ))}
         </ul>
