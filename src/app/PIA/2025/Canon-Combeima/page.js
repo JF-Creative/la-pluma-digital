@@ -52,9 +52,9 @@ export default function Pia2025() {
               ))}
           </div> 
         
-      </div>     
+      </div>
         
-          <div className="infografia">{current}</div>
+          <div className="infografia">{current.component}</div>
       <div className="links">
         <Link className="return" href="./">
           Volver a proyectos
