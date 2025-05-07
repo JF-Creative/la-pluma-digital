@@ -33,7 +33,6 @@ export default function Pia2025() {
   return (
     <div className="sec-container">
       <div className="inf-container">
-      
           <div className="inf-description">
               <h2>{data.title}</h2>
               {Array.isArray(data.description) ? (
@@ -50,11 +49,10 @@ export default function Pia2025() {
                       {btn}
                   </button>
               ))}
-          </div> 
-        
+          </div>
+          <div className="infografia">{current.component}</div> 
       </div>
-        
-          <div className="infografia">{current.component}</div>
+          
       <div className="links">
         <Link className="return" href="./">
           Volver a proyectos
