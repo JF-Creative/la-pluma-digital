@@ -23,14 +23,15 @@ export default function Footer() {
 
   return (
     <footer className="footer-inf-container">
-      <div className="description">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae pariatur
-        temporibus, et cupiditate fugit, impedit quibusdam officia placeat
-        nesciunt accusantium reprehenderit suscipit! Eligendi commodi suscipit
-        tenetur ratione consectetur, dolores amet!
+      <div className="footerDescription">
+        Explora el Cañón del Combeima a través de esta infografía interactiva
+        diseñada para viajeros, amantes de la naturaleza y ecoturistas. Con
+        datos estadísticos, entrevistas en video, imágenes y tablas
+        comparativas, entenderás por qué este paraíso natural es uno de los
+        destinos más atractivos para el turismo sostenible en Colombia.
       </div>
       <div className="contacto">
-        <h1>Elaborado por:</h1>
+        <h1 className="footerTitle">Elaborado por:</h1>
         <ul>
           {authors.map((author) => (
             <li key={author.mail}>

@@ -30,15 +30,15 @@ export default function Footer() {
 
   return (
     <footer className="footer-inf-container">
-      <div className="description-footer">
+      <div className="footerDescription">
         Explora el Cañón del Combeima a través de esta infografía interactiva
         diseñada para viajeros, amantes de la naturaleza y ecoturistas. Con
         datos estadísticos, entrevistas en video, imágenes y tablas
         comparativas, entenderás por qué este paraíso natural es uno de los
-        destinos más atractivos para el turismo sostenible en Colombia.
+        destinos más atractivos para el turismo sostenible en Colombia.        
       </div>
       <div className="contacto">
-        <h1 className="staff">Elaborado por:</h1>
+        <h1 className="footerTitle">Elaborado por:</h1>
         <ul>
           {authors.map((author) => (
             <li key={author.mail}>

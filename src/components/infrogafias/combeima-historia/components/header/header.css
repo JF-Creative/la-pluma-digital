@@ -34,10 +34,10 @@
     width: 40%;
 }
 
-.txtContainer h1 {
+.headerTitle {
     font-size: 100%;
 }
 
-.txtContainer h2 {
+.headerSubtitle {
     font-size: 80%;
 }

@@ -1,40 +1,45 @@
 .footer-inf-container {
     width: 100%;
     height: 15%;
-    background: #7747089d;
-    width: auto;
+    background: #7747089d;    
     display: flex;
     align-items: center;
 }
 
-.description {
+.footerDescription {
     width: 40%;
     height: 100%;
-    font-size: 55%;
-    display: flex;
+    font-size: 65%;
+    display: flex;    
     align-items: center;
     padding: 2%;
 }
 
 .contacto {
-    width: 30%;
-    height: 100%;
-    font-size: 70%;
-    display: flex;
+    width: 35%;
+    height: 100%;    
+    display: flex;    
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
+    font-size: 40%;
 }
 
 .contacto ul {
     list-style: none;
+    font-size: 1em;    
 }
 
-.contacto h1 {
-    font-size: 2em;
+.contacto ul li a{
+    text-decoration: none;
+    color: aquamarine;    
 }
+
+.footerTitle {
+    font-size: 2em;
+  }
 
 .logitos {
-    width: 30%;
+    width: 25%;
     height: 100%;
     display: flex;
     align-items: center;

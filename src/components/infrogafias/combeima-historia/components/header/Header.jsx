@@ -16,8 +16,8 @@ export default function Header() {
           />
         </div>
         <div className="txtContainer">
-          <h1>Cañón del Combeima</h1>
-          <h2>Datos Históricos</h2>
+          <h1 className="headerTitle">Cañón del Combeima</h1>
+          <h2 className="headerSubtitle">Datos Históricos</h2>
         </div>
       </div>
       <h1><em>&quot;Impera la ley del silencio&quot;</em></h1>

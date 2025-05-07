@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: start;
     gap: 4rem;
+    font-size: 1rem;
 }
 
 .sec-container a {
@@ -35,6 +36,7 @@
     padding: 1rem;
     gap: 1.5rem;
     transition: box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease;
+    font-size: 0.9rem;
 }
 
 .card:hover{
@@ -60,6 +62,7 @@
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
+    font-size: 1rem;
     flex-grow: 1;
 }
 
@@ -67,6 +70,7 @@
     list-style-type: none;
     font-style: italic;
 }
+
 
 button {
     margin-top: 1rem;
@@ -86,4 +90,3 @@ button {
 button:hover {
     background-color: #222;
 }
-

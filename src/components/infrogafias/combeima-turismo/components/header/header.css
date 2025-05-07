@@ -10,6 +10,10 @@
     justify-content: space-around;
     padding: 1% 2%;
 }
+.headerTitle {
+    font-size: 100%;
+}
+
 
 
 .logoInfContainerTur {

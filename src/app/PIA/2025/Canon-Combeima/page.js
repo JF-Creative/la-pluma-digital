@@ -31,7 +31,7 @@ export default function Pia2025() {
   };
 
   return (
-    <div className="sec-container">
+    <div className="sec-inf-container">
       <div className="inf-container">
           <div className="inf-description">
               <h2>{data.title}</h2>
