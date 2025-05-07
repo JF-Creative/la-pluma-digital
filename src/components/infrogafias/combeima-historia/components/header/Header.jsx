@@ -20,7 +20,7 @@ export default function Header() {
           <h2>Datos Históricos</h2>
         </div>
       </div>
-      <h1><em>"Impera la ley del silencio"</em></h1>
+      <h1><em>&quot;Impera la ley del silencio&quot;</em></h1>
     </div>
   );
 }

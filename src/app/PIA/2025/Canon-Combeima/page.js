@@ -6,19 +6,25 @@ import { useState } from "react";
 import CombeimaHistoria from "@/components/infrogafias/combeima-historia/CombeimaHistoria";
 import CombeimaTurismo from "@/components/infrogafias/combeima-turismo/CombeimaTurismo"
 export default function Pia2025() {
-  const [current, setCurrent] = useState(<CombeimaHistoria />);
+  const [current, setCurrent] = useState({component:<CombeimaHistoria />, key: "CombeimaHistoria"});
 
   const handleCurrent = (label) => {
     const components = [
-      <CombeimaHistoria />,
-      <CombeimaTurismo/>
+      {
+        component: <CombeimaHistoria />,
+        key: "CombeimaHistoria"
+      },
+      {
+        component: <CombeimaTurismo/>,
+        key: "CombeimaTurismo"
+      }
     ];
 
     const index = data.botones.findIndex((boton) => boton === label);
 
     const newComp =
-      index !== -1
-        ? components[index]
+      index !== -1 ?
+        components[index]
         : "Lo sentimos, no encontramos ese componente";
 
     setCurrent(newComp);
@@ -27,17 +33,28 @@ export default function Pia2025() {
   return (
     <div className="sec-container">
       <div className="inf-container">
-        <div className="inf-description">
-          <h2>{data.title}</h2>
-          <p>{data.description}</p>
-          {data.botones.map((btn) => (
-            <button key={btn} onClick={() => handleCurrent(btn)}>
-              {btn}
-            </button>
-          ))}
-        </div>
-        <div className="infografia">{current}</div>
-      </div>
+      
+          <div className="inf-description">
+              <h2>{data.title}</h2>
+              {Array.isArray(data.description) ? (
+                  data.description.map((paragraph, index) => (
+                      <p key={`description-p-${index}`}>
+                          {paragraph}
+                      </p>
+                  ))
+              ) : (
+                  <p>{data.description}</p>
+              )}
+              {data.botones.map((btn) => (
+                  <button key={btn} onClick={() => handleCurrent(btn)}>
+                      {btn}
+                  </button>
+              ))}
+          </div> 
+        
+      </div>     
+        
+          <div className="infografia">{current}</div>
       <div className="links">
         <Link className="return" href="./">
           Volver a proyectos
