@@ -8,12 +8,15 @@ export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
 
   // Oculta Header/Footer solo en estas rutas específicas
-  const hideLayout = pathname.startsWith('/PIA/2025/JB-San-Jorge/');
+    const hideLayout = pathname.startsWith('/PIA/2025/JB-San-Jorge/');
+
+    // Define la clase del main basado en hideLayout
+    const mainClassName = hideLayout ? 'main-full' : 'main-adapted';
 
   return (
     <>
       {!hideLayout && <Header />}
-      <main>{children}</main>
+      <main className={mainClassName}>{children}</main>
       {!hideLayout && <Footer />}
     </>
   );

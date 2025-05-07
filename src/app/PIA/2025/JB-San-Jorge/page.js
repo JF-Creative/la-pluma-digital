@@ -3,7 +3,7 @@ import {data} from "@/data/sanJorge";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import '@/styles/list-projects2.css'
+import '@/styles/list-projects.css'
 
 export default function Pia2025() {
 

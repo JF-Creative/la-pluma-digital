@@ -16,7 +16,7 @@ export default function Inicio() {
     return (
       <div className={styles.site}>
         <Header/>
-        <div className={styles.main}>
+        <div className={styles.mainSite}>
           <div className={styles.video_container}>Video en dron</div>
           <div className={styles.shortcuts}>
             {shortcuts.map(
