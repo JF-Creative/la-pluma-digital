@@ -3,6 +3,7 @@ import './globalStyles.css'
 import Link from "next/link";
 import stylesHeader from './header.module.css'
 import { useState } from "react";
+import Image from "next/image";
 
 import Miniserie from "./Miniserie/Miniserie";
 import Reportaje from "./Reportaje/Reportaje";
@@ -31,13 +32,13 @@ export default function Site() {
       <div className={stylesHeader.header}>
       <div className={stylesHeader.logoContainer}>
         <Link href="#">
-          {/* <Image
-            src="/Logo1.png"
-            alt="La Pluma Digital"
+          <Image
+            src="/Ecomemoria.png"
+            alt="Ecomemoria"
             fill
-            className="logoHeader"
+            className="logoSiteHeader"
             priority
-          /> */}<h1>Hola. Soy un Logo</h1>
+          />
         </Link>
       </div>
       <nav className={stylesHeader.nav}>

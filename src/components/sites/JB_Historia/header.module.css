@@ -17,8 +17,12 @@
     position: relative;
     display: flex;
     align-items: center;
-    width: auto;
+    width: 125px;
     height: 125px;
+}
+
+.logoSiteHeader {
+    object-fit: contain;
 }
 
 .nav {
