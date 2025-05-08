@@ -4,4 +4,58 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2%;
+    gap:3rem;
 }
+
+.historie_card{
+    width: 400px;
+    height: 600px;
+    background-color: #536706;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2rem
+}
+
+.cardImage{
+    width: 80%;
+    aspect-ratio: 16/9;
+    background-color: white;
+}
+
+.tituloCard {
+    font-size: 80%;
+    font-weight: bold;
+    color: white
+}
+
+.descriptionCard {
+    font-size: 100%;
+    font-weight: light;
+    color: white;
+    padding: 0 4%;
+}
+
+.btn_more{
+    font-weight: lighter;
+    width: 121px;
+    height: 39px;
+    background-color: #99B841;
+    color: white;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn_more:hover {
+    background-color: #7a8f34; /* Un tono más oscuro al pasar el ratón */
+}
+
+.btn_more:active {
+    transform: scale(0.95); /* Se reduce un poco al hacer clic */
+}
+
+
+

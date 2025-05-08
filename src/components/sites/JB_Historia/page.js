@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import './globalStyles.css'
 import Link from "next/link";
 import stylesHeader from './header.module.css'
 import { useState } from "react";
