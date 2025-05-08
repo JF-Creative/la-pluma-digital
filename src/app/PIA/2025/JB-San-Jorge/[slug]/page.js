@@ -1,7 +1,8 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import Historia from '@/components/sites/JB_Historia/page'
+import Historia from '@/components/sites/JB_Historia/page';
+import Species from '@/components/sites/JB_Flora-Fauna/page'
 
 
 export default function SlugPage() {
@@ -12,7 +13,7 @@ export default function SlugPage() {
       case 'historia':
         return <Historia/>;
       case 'flora-y-fauna':
-        return <div>Soy componente flora y fauna</div>;
+        return <Species/>;
       default:
         return <div>Not Found</div>;
     }

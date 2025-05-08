@@ -5,19 +5,14 @@ import Link from "next/link";
 export default function Footer() {
   const authors = [
     {
-      name: "Liseth Camila Ballen    ",
-      mail: "liseth.ballen@cun.edu.co",
-      mailto: "mailto:liseth.ballen@cun.edu.co",
+      name: "Jose Luis González    ",
+      mail: "jose.gonzalezve@cun.edu.co",
+      mailto: "mailto:jose.gonzalezve@cun.edu.co",
     },
     {
-      name: "Stephania Bernal  ",
-      mail: "stephania.bernal@cun.edu.co",
-      mailto: "mailto:stephania.bernal@cun.edu.co",
-    },
-    {
-      name: "Danna Molina F.  ",
-      mail: "danna.molinaf@cun.edu.co",
-      mailto: "mailto:danna.molinaf@cun.edu.co",
+      name: "Paula Daniela Naranjo  ",
+      mail: "paula.naranjo@cun.edu.co",
+      mailto: "mailto:paula.naranjo@cun.edu.co",
     }
   ];
 

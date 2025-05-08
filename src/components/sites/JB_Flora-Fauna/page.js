@@ -17,11 +17,11 @@ export default function Site() {
 
   const menu = [
     { label: "Inicio", component: Inicio(), href: "#" },
-    { label: "Miniserie", component: <Miniserie/>, href: "#"},
-    { label: "Reportaje", component: <Reportaje/>, href: "#"},
-    { label: "Escrito", component: <Escrito/>, href: "#"},
-    { label: "Estructura", component: <Estructura/>, href: "#"},
-    { label: "Nosotros", component: <Nosotros/>, href: "#"},
+    { label: "Reportaje Escrito", component: <Escrito/>, href: "#"},
+    { label: "T.V. Básica", component: <Miniserie/>, href: "#"},
+    { label: "Reportaje Sonoro", component: <Reportaje/>, href: "#"},
+    { label: "Contenido Informativo", component: <Estructura/>, href: "#"},
+    { label: "Galería", component: <Nosotros/>, href: "#"},
   ];
 
 
@@ -48,6 +48,11 @@ export default function Site() {
           ))}
         </ul>
       </nav>
+      <div className={stylesHeader.returnToPluma}>
+        <h4 className={stylesHeader.sectionIdHeader}>Volver a Pluma Digital...</h4>
+        <Link href="/"><button className={stylesHeader.plumaBTbck}>Volver a Inicio</button></Link>
+        <Link href="../JB-San-Jorge"><button className={stylesHeader.plumaBTbck}>PIA San Jorge</button></Link>
+      </div>
     </div>
       <div className={styles.mainSite}>
         {currentMain}

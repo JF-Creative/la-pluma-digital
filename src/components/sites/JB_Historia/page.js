@@ -49,6 +49,11 @@ export default function Site() {
           ))}
         </ul>
       </nav>
+      <div className={stylesHeader.returnToPluma}>
+        <h4 className={stylesHeader.sectionIdHeader}>Volver a Pluma Digital...</h4>
+        <Link href="/"><button className={stylesHeader.plumaBTbck}>Volver a Inicio</button></Link>
+        <Link href="../JB-San-Jorge"><button className={stylesHeader.plumaBTbck}>PIA San Jorge</button></Link>
+      </div>
     </div>
       <div className={styles.mainSite}>
         {currentMain}

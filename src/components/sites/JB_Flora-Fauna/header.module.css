@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #536706;
+    background-color: #0D2601;
     min-height: 150px;
     width: 100%;
     padding: 0 10em;
@@ -39,3 +39,27 @@
     color: #ffffff;
     font-size: 1.5rem;
 }
+
+
+.returnToPluma {
+    width: 200px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: white;
+    flex-direction: column;
+    color:green
+  }
+
+  .sectionIdHeader{
+    font-size: 80%;
+  }
+  
+  .plumaBTbck {
+    width: 100;
+    height: auto;
+    background-color: green ;
+    color: white
+  }
