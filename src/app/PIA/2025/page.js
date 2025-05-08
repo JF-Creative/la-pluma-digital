@@ -20,10 +20,9 @@ export default function Pia2025() {
                 <Image src={item.cardImg.src} alt={item.cardImg.alt} fill className="cardImg" />
               </div>
               <div className="description">
-                <h3>{item.info.tema}</h3>
+                {/* <h3>{item.info.tema}</h3> */}
                 <p>
-                  El trabajo realizado por los estudiantes gira en torno a las
-                  actividades, actores y elementos del {item.info.tema}, abordado desde
+                  {item.info.tema}, abordado desde
                   las siguientes materias:
                 </p>
                 <ul>

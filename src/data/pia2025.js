@@ -2,8 +2,8 @@ export const materias = {
   "materias": [
     {
         "info": {
-          "idSemestre": "Primer Semestre",
-          "tema": "Panóptico de Ibagué",
+          "idSemestre": "Panóptico de Ibagué",
+          "tema": "Un analisis realizado por los estudiantes enfocado a la historía y la cultura de este emblemático sitio de Ibagué ",
           "cursos": [
             "Historia Universal del Periodismo",
             "Lenguaje Visual y Sonoro",
@@ -19,8 +19,8 @@ export const materias = {
       },
       {
         "info": {
-          "idSemestre": "Segundo Semestre",
-          "tema": "Museo de Arte del Tolima",
+          "idSemestre": "Museo de Arte del Tolima",
+          "tema": "El trabajo realizado por los estudiantes gira en torno a las actividades, actores y elementos del ",
           "cursos": [
             "Investigación en Comunicación",
             "Reportería Gráfica",
@@ -35,8 +35,8 @@ export const materias = {
       },
       {
       "info": {
-        "idSemestre": "Tercer Semestre",
-        "tema": "Jardín Botánico",
+        "idSemestre": "Jardín Botánico",
+        "tema": "Una investigación explorando la historia, la fauna y la flora del pulmón verde de la Capital Musical ",
         "cursos": [
           "Periodismo Digital",
           "Producción de Contenidos Informativos",
@@ -52,8 +52,8 @@ export const materias = {
     },
     {
       "info": {
-        "idSemestre": "Cuarto Semestre",
-        "tema": "Cañón del Combeima",
+        "idSemestre": "Cañón del Combeima",
+        "tema": "Un acercamiento desde la estadística y la entrevista, para conocer más del principal corredor ecoturístico de Ibagué ",
         "cursos": [
           "Estadística social",
           "Producción de Radio y Televisión",

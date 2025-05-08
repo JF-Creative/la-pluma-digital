@@ -29,8 +29,6 @@ export default function Header() {
     { label: "Inicio", href: "/" },
     { label: "PIA 2025", href: "/PIA/2025" },
     { label: "Otros Proyectos", href: "/otros-proyectos" },
-    { label: "Podcast", href: "/podcast" },
-    { label: "NotaNet", href: "/nota-net" },
     { label: "¿Pluma Digital?", href: "/about" }
   ];
 
@@ -59,3 +57,13 @@ export default function Header() {
     </header>
   );
 }
+
+
+const fullINfo = [
+  { label: "Inicio", href: "/" },
+  { label: "PIA 2025", href: "/PIA/2025" },
+  { label: "Otros Proyectos", href: "/otros-proyectos" },
+  { label: "Podcast", href: "/podcast" },
+  { label: "NotaNet", href: "/nota-net" },
+  { label: "¿Pluma Digital?", href: "/about" }
+];
