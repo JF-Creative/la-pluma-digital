@@ -57,14 +57,18 @@
 }
 
 .document_image_container {
-    display: flex;
+    width:90%;
+    height: 50%;
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2%;
 }
 
 .document_images {
-    width: 80%;
+    width: 90%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,10 +76,21 @@
 }
 
 .document_image {
-    position: relative;
-    width: 60%;
-         }
+    width:30%;
+    flex: 1;
+}  
 
 .image_rep_escrito {
+    width:100%;
+    height: auto;
     object-fit: contain;
+}
+
+.document_image_container img,
+.document_images img,
+.document_image img,
+.image_rep_escrito img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }

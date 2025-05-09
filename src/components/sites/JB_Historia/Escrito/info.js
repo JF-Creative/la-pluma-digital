@@ -37,7 +37,7 @@ export const data = {
       ,
       <figure className={styles.document_image_container}>
         <div className={styles.document_image}>
-          <Image src="/ecomemoria_media/1.jpg" alt="Fotos_JB-San-Jorge" fill className={styles.image_rep_escrito}/>
+          <Image src="/ecomemoria_media/1.jpg" alt="Fotos_JB-San-Jorge" width={400} height={298} className={styles.image_rep_escrito} />
         </div>
         <figcaption>Fotografía extraída de: Monumentos de Ibagué</figcaption>
       </figure>
@@ -58,10 +58,10 @@ export const data = {
       <figure className={styles.document_image_container}>
         <div className={styles.document_images}>
           <div className={styles.document_image}>
-            <Image src="/ecomemoria_media/2.jpg" alt="Fotos_JB-San-Jorge" fill />
+            <Image src="/ecomemoria_media/2.jpg" alt="Fotos_JB-San-Jorge" width={1600} height={1080} />
           </div>
           <div className={styles.document_image}>
-            <Image src="/ecomemoria_media/3.jpg" alt="Fotos_JB-San-Jorge" fill />
+            <Image src="/ecomemoria_media/3.jpg" alt="Fotos_JB-San-Jorge" width={1600} height={1015} />
           </div>
         </div>
         <figcaption>Fotografías de archivo - Martha Perdomo.</figcaption>
@@ -122,7 +122,7 @@ export const data = {
       </p>
       <figure className={styles.document_image_container}>
         <div className={styles.document_image}>
-          <Image src="/ecomemoria_media/4.jpg" alt="Fotos_JB-San-Jorge" fill />
+          <Image src="/ecomemoria_media/4.jpg" alt="Fotos_JB-San-Jorge" width={1462} height={1000} />
         </div>
         <figcaption>Fotografías de archivo - Martha Perdomo.</figcaption>
       </figure>
@@ -181,10 +181,10 @@ export const data = {
         </li>
       </ul>
       <figure className={styles.document_image_container}>
-        <div className={styles.document_images}> 
-          <div className={styles.document_image}><Image src="/ecomemoria_media/5.jpg" alt="Fotos_JB-San-Jorge" fill /></div>
-          <div className={styles.document_image}><Image src="/ecomemoria_media/6.jpg" alt="Fotos_JB-San-Jorge" fill /></div>
-          <div className={styles.document_image}><Image src="/ecomemoria_media/7.jpg" alt="Fotos_JB-San-Jorge" fill /></div>
+        <div className={styles.document_images}>
+          <div className={styles.document_image}><Image src="/ecomemoria_media/5.jpg" alt="Fotos_JB-San-Jorge" width={1072} height={1408} /></div>
+          <div className={styles.document_image}><Image src="/ecomemoria_media/6.jpg" alt="Fotos_JB-San-Jorge" width={1072} height={1408} /></div>
+          <div className={styles.document_image}><Image src="/ecomemoria_media/7.jpg" alt="Fotos_JB-San-Jorge" width={1072} height={1408} /></div>
         </div>
         <figcaption>
           Fotografía de archivo - Jardín Botánico San Jorge.
@@ -217,7 +217,7 @@ export const data = {
       </p>
       <figure className={styles.document_image_container}>
         <div className={styles.document_image}>
-          <Image src="/ecomemoria_media/8.png" alt="Fotos_JB-San-Jorge" fill />
+          <Image src="/ecomemoria_media/8.png" alt="Fotos_JB-San-Jorge" width={450} height={269} />
         </div>
         <figcaption>Fotografía extraída de: Monumentos de Ibagué.</figcaption>
       </figure>

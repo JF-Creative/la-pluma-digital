@@ -1,7 +1,9 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 import stylesHeader from './header.module.css'
+import Image from "next/image";
 import { useState } from "react";
+
 
 import Miniserie from "./Miniserie/Miniserie";
 import Reportaje from "./Reportaje/Reportaje";
@@ -30,13 +32,14 @@ export default function Site() {
       <div className={stylesHeader.header}>
       <div className={stylesHeader.logoContainer}>
         <Link href="#">
-          {/* <Image
-            src="/Logo1.png"
-            alt="La Pluma Digital"
-            fill
+          <Image
+            src="/pulmon-verde.png"
+            alt="pulmonHeaderLogo"
+            width={100}
+            height={100}
             className="logoHeader"
             priority
-          /> */}<h1>Hola. Soy un Logo</h1>
+          /> 
         </Link>
       </div>
       <nav className={stylesHeader.nav}>
