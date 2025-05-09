@@ -58,10 +58,10 @@ export const data = {
       <figure className={styles.document_image_container}>
         <div className={styles.document_images}>
           <div className={styles.document_image}>
-            <Image src="" alt="Fotos_JB-San-Jorge" fill />
+            <Image src="/ecomemoria_media/2.jpg" alt="Fotos_JB-San-Jorge" fill />
           </div>
           <div className={styles.document_image}>
-            <Image src="" alt="Fotos_JB-San-Jorge" fill />
+            <Image src="/ecomemoria_media/3.jpg" alt="Fotos_JB-San-Jorge" fill />
           </div>
         </div>
         <figcaption>Fotografías de archivo - Martha Perdomo.</figcaption>
@@ -122,7 +122,7 @@ export const data = {
       </p>
       <figure className={styles.document_image_container}>
         <div className={styles.document_image}>
-          <Image src="" alt="Fotos_JB-San-Jorge" fill />
+          <Image src="/ecomemoria_media/4.jpg" alt="Fotos_JB-San-Jorge" fill />
         </div>
         <figcaption>Fotografías de archivo - Martha Perdomo.</figcaption>
       </figure>
@@ -182,9 +182,9 @@ export const data = {
       </ul>
       <figure className={styles.document_image_container}>
         <div className={styles.document_images}> 
-          <div className={styles.document_image}><Image src="" alt="Fotos_JB-San-Jorge" fill /></div>
-          <div className={styles.document_image}><Image src="" alt="Fotos_JB-San-Jorge" fill /></div>
-          <div className={styles.document_image}><Image src="" alt="Fotos_JB-San-Jorge" fill /></div>
+          <div className={styles.document_image}><Image src="/ecomemoria_media/5.jpg" alt="Fotos_JB-San-Jorge" fill /></div>
+          <div className={styles.document_image}><Image src="/ecomemoria_media/6.jpg" alt="Fotos_JB-San-Jorge" fill /></div>
+          <div className={styles.document_image}><Image src="/ecomemoria_media/7.jpg" alt="Fotos_JB-San-Jorge" fill /></div>
         </div>
         <figcaption>
           Fotografía de archivo - Jardín Botánico San Jorge.
@@ -217,7 +217,7 @@ export const data = {
       </p>
       <figure className={styles.document_image_container}>
         <div className={styles.document_image}>
-          <Image src="" alt="Fotos_JB-San-Jorge" fill />
+          <Image src="/ecomemoria_media/8.png" alt="Fotos_JB-San-Jorge" fill />
         </div>
         <figcaption>Fotografía extraída de: Monumentos de Ibagué.</figcaption>
       </figure>
