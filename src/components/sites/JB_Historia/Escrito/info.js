@@ -5,7 +5,7 @@ import styles from "./escrito.module.css";
 export const data = {
   title: <h1>Cañón del Combeima</h1>,
   paragraphs: [
-    <section>
+    <section key="1">
       <p>
         En lo alto del cerro noroccidental de Ibagué, un terreno olvidado
         comenzó a transformarse gracias a la visión de un licenciado en biología
@@ -42,7 +42,7 @@ export const data = {
         <figcaption>Fotografía extraída de: Monumentos de Ibagué</figcaption>
       </figure>
     </section>,
-    <section>
+    <section key="2">
       <h2>Una tesis que floreció en tierras salesianas</h2>
       <p>
         En 1997, el Licenciado Germán Oyuela llegó a Colombia con el propósito
@@ -135,7 +135,7 @@ export const data = {
         actualmente funciona el Colegio Musical Amina Melendro de Pulecio.
       </p>
     </section>,
-    <section>
+    <section key="3">
       <h2>SEMBRANDO FUTURO</h2>
       <h3>Semillas de Paz: Raíces Educativas</h3>
       <p>
@@ -164,7 +164,7 @@ export const data = {
         </li>
       </ol>
     </section>,
-    <section>
+    <section key="4">
       <h3>Aprende con Combi Y Chipi</h3>
       <p>
         De forma complementaria, el Jardín Botánico San Jorge desarrolla
@@ -198,7 +198,7 @@ export const data = {
         seguridad, orientación y datos curiosos sobre este ecosistema urbano.
       </p>
     </section>,
-    <section>
+    <section key="5">
       <h2>Un legado que sigue vivo</h2>
       <p>
         El Jardín Botánico San Jorge no es solo un espacio verde en medio de la
