@@ -37,7 +37,7 @@ export const data = {
       ,
       <figure className={styles.document_image_container}>
         <div className={styles.document_image}>
-          <Image src="/ecomemoria_media/1.jpg" alt="Fotos_JB-San-Jorge" fill />
+          <Image src="/ecomemoria_media/1.jpg" alt="Fotos_JB-San-Jorge" fill className={styles.image_rep_escrito}/>
         </div>
         <figcaption>Fotografía extraída de: Monumentos de Ibagué</figcaption>
       </figure>
