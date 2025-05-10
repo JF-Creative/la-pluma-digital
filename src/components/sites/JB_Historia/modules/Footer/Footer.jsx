@@ -18,16 +18,15 @@ export default function Footer() {
       name: "Danna Molina F.  ",
       mail: "danna.molinaf@cun.edu.co",
       mailto: "mailto:danna.molinaf@cun.edu.co",
-    }
+    },
   ];
 
   return (
     <div className={styles.footerInfContainer}>
       <div className={styles.description_footer}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-        ipsam unde nobis magni similique exercitationem quod quasi molestiae
-        amet, blanditiis voluptate illum asperiores officiis iusto odit quaerat
-        quam neque nihil.
+        <span><b>Ecomemoria</b> | Proyectos académicos sobre la historia del Jardín Botánico
+        San Jorge, creados por estudiantes de tercer semestre de Comunicación
+        Social de la CUN, sede Ibagué.</span>
       </div>
       <div className={styles.contacto}>
         <h1 className={styles.staff}>Elaborado por:</h1>

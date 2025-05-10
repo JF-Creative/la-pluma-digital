@@ -23,7 +23,7 @@ export default function Site() {
     { label: "Reportaje", component: <Reportaje/>, href: "#"},
     { label: "Escrito", component: <Escrito/>, href: "#"},
     { label: "Estructura", component: <Estructura/>, href: "#"},
-    { label: "Nosotros", component: <Nosotros/>, href: "#"},
+    { label: "Galería", component: <Nosotros/>, href: "#"},
   ];
 
 
