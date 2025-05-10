@@ -94,3 +94,19 @@
     height: auto;
     display: block;
 }
+
+.section_ol_ul {
+    margin-bottom: 1em;
+    padding-left: 10%;
+}
+
+.link_written_report{
+    color:green;
+    text-decoration: none;
+    transition: color 1s ease, text-decoration 4s ease;
+}
+
+.link_written_report:hover{
+    color:rgb(1, 65, 1);
+    text-decoration: underline;
+}

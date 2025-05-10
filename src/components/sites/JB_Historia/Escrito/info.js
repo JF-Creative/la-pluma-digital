@@ -14,6 +14,7 @@ export const data = {
         <Link
           href="https://www.facebook.com/JardinBotanicoSan.Jorge.Ibague/"
           target="blank_"
+          className={styles.link_written_report}
         >
           <strong>Jardín Botánico San Jorge</strong>
         </Link>
@@ -28,6 +29,7 @@ export const data = {
         <Link
           href="https://es.wikipedia.org/wiki/Familia_Salesiana"
           target="blank_"
+          className={styles.link_written_report}
         >
           <strong>comunidad salesiana</strong>
         </Link>
@@ -69,12 +71,17 @@ export const data = {
       <p>
         Para Oyuela lograr un acuerdo con la congregación, y mediante una
         propuesta clara logró que el terreno le fuera entregado{" "}
-        <Link href="https://es.wikipedia.org/wiki/Comodato" target="blank_">
+        <Link
+          href="https://es.wikipedia.org/wiki/Comodato"
+          target="blank_"
+          className={styles.link_written_report}
+        >
           <strong>en comodato</strong>
         </Link>
         , esto, le permitió avanzar en el diseño de un jardín botánico. En 1999,
         con el apoyo de la{" "}
-        <Link href="https://arcoiris.com.co/quienes-somos/">
+        <Link href="https://arcoiris.com.co/quienes-somos/" target="blank_"
+          className={styles.link_written_report}>
           <strong>Corporación Nuevo Arcoíris</strong>
         </Link>{" "}
         y el proyecto “Territorio de Paz”, se presentó la idea final. Durante el
@@ -95,8 +102,9 @@ export const data = {
       </div>
       <p>
         La ciudad de Ibagué ya contaba con un Jardín Botánico de la{" "}
-        <Link href="http://www.ut.edu.co/">
-          <strong>Universidad del Tolima</strong>
+        <Link href="http://www.ut.edu.co/" target="blank_"
+          className={styles.link_written_report}>
+          <strong>Universidad del Tolima</strong>{" "}
         </Link>
         , fundado en 1968, y no había interés en compartir ese reconocimiento.
         Sin embargo, Oyuela investigó y consultó directamente con el presidente
@@ -144,7 +152,7 @@ export const data = {
         programa “Semillas de Paz”, diseñado para niñas, niños y jóvenes. Este
         programa se desarrolla en cuatro espacios:
       </p>
-      <ol>
+      <ol className={styles.section_ol_ul}>
         <li>
           <strong>El Yin y el Yang:</strong> Simboliza la armonía entre
           contrarios y la complementariedad.
@@ -172,7 +180,7 @@ export const data = {
         herramientas están pensadas para enseñar a cuidar el medio ambiente de
         una manera divertida. Sus protagonistas son:
       </p>
-      <ul>
+      <ul className={styles.section_ol_ul}>
         <li>
           <strong>Combi:</strong> hija del río Combeima
         </li>
