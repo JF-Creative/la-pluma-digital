@@ -38,11 +38,11 @@ export default function Gallery() {
       </div>
       {selectedImage && (
         <div
-          className={styles.modal_overlay}
+          className={styles.ecomemoria_modal_overlay}
           onClick={() => setSelectedImage(null)}
         >
           <div
-            className={styles.modal_content}
+            className={styles.ecomemoria_modal_content}
             onClick={(e) => e.stopPropagation()}
           >
             <Image
@@ -53,7 +53,7 @@ export default function Gallery() {
               className={styles.modal_image}
             />
             <button
-              className={styles.modal_close}
+              className={styles.ecomemoria_modal_close}
               onClick={() => setSelectedImage(null)}
             >
               ✕

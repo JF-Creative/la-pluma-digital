@@ -1,19 +1,19 @@
-import "@/styles/about.css";
+import styles from "@/styles/about.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="about-container">
-        <div className="img-logo-container">
+    <div className={styles.aboutContainer}>
+        <div className={styles.imgLogoContainer}>
           <Image
             src="/Logo1.png"
             alt="La Pluma Digital"
             fill
-            className="logoAbout"
+            className={styles.logoAbout}
           />
         </div>
-        <div className="text-container">
+        <div className={styles.textContainer}>
           <h2>Sobre Nosotros </h2>
           <p>
             <strong>La Pluma Digital</strong> es un proyecto comunicativo desarrollado con fines
