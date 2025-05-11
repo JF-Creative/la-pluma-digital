@@ -1,4 +1,4 @@
-import './combeimaHistoria.css'
+import './CombeimaHistoria.css'
 import Header from "./components/header/Header"
 import Footer from './components/footer/Footer'
 import Statistics from "./components/statistics/Statistics"
