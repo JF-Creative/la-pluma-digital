@@ -19,10 +19,7 @@ export default function Miniserie() {
     <div className={styles.mainSite}>
       <div className={styles.historie_card_container}>
         {cardsInfo.map((cardItem, index) => (
-          <div
-            key={index}
-            className={styles.historie_card}
-          >
+          <div key={index} className={styles.historie_card}>
             <div className={styles.cardImage}>
               <Image
                 src={cardItem.cardImage.src}
@@ -38,7 +35,12 @@ export default function Miniserie() {
             <div className={styles.descriptionCard}>
               <p>{cardItem.description}</p>
             </div>
-            <button className={styles.btn_more} onClick={() => handleCardClick(cardItem.videoId)}>Ver más</button>
+            <button
+              className={styles.btn_more}
+              onClick={() => handleCardClick(cardItem.videoId)}
+            >
+              Ver más
+            </button>
           </div>
         ))}
       </div>

@@ -1,0 +1,48 @@
+.data_statics_Container{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.image_data_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.img_container_tur {
+    position: relative;
+    aspect-ratio: 16/9;
+    height: 70%;
+}
+
+.imageStatics {
+    object-fit: contain;
+}
+
+.btn_data_container{
+    height: 100;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_container{
+    width: 100%;
+}
+
+.btn_statics {
+    background-color: rgb(223, 183, 96);
+    color: black;
+    font-size: 60%;
+}

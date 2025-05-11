@@ -11,11 +11,11 @@ export default function CombeimaHistoria() {
       <Header/>
       <div className='infContent1'>
         <div className='mediaContainer1'>
-          <h3>Casi un siglo de historias...</h3>
+          <h3>VOCES DEL TURISMO</h3>
           <Media/>
         </div>
         <div className='dataContainer1'>
-          <h3>El Cañón visto por sus habitantes</h3>
+          <h3>CIFRAS DEL TURISMO</h3>
           <Statistics/>
         </div>
       </div>

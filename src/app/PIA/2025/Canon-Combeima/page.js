@@ -45,7 +45,7 @@ export default function Pia2025() {
                   <p>{data.description}</p>
               )}
               {data.botones.map((btn) => (
-                  <button key={btn} onClick={() => handleCurrent(btn)}>
+                  <button key={btn} onClick={() => handleCurrent(btn)} className="btn_Infografia">
                       {btn}
                   </button>
               ))}
