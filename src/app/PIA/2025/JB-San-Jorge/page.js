@@ -32,7 +32,14 @@ const pathName = usePathname();
         )
       })}
     </div>
-    <Link className="return" href="/">Volver a inicio</Link>
+    <div className={styles.linksContainer}>
+        <Link className="return" href="./">
+          Volver a proyectos
+        </Link>
+        <Link className="return" href="/">
+          Volver a Inicio
+        </Link>
+      </div>
     </div>
   );
 }

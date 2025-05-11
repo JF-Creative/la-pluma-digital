@@ -11,6 +11,7 @@ import Escrito from "./Escrito/Escrito";
 import Estructura from "./Estructura/Estructura";
 import Nosotros from "./Nosotros/Nosotros"
 import Footer from "./modules/Footer/Footer";
+import DroneVideo from "./modules/DronVideo/DronVideo";
 
 export default function Site() {
 
@@ -72,7 +73,7 @@ function Inicio(){
   
   return(
     <>
-    <div className={styles.video_container}>Video en dron</div>
+    <div className={styles.video_container}><DroneVideo/></div>
         <div className={styles.shortcuts}>
           {shortcuts.map((shortcut) => (
             <h1 key={shortcut} className={styles.shortcut_item}>

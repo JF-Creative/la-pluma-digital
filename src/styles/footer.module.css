@@ -1,0 +1,71 @@
+.footerContainer {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow: hidden;
+    font-size: 0.7rem;
+    padding: 0 8rem;
+}
+
+.footerTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0.5rem;
+}
+
+.footerDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.boomContainer {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    gap: 2rem;
+}
+
+.boomContainer p {
+    text-shadow: 0 0 10px #fa4b88;
+}
+
+.boomContainer:hover { 
+    text-decoration: none;
+    color: #fa4b88;
+}
+
+.boomLogoContainer {
+    position: relative;
+    height: 100%;
+    aspect-ratio: 16/9;
+}
+
+.logoBoom{
+    object-fit: contain;
+}
+
+.footerBottom {
+    font-size: 0.6rem;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poweredLogoContainer{
+    position: relative;
+    width: 60px;
+    height: 30px;
+}
+
+.poweredLogo {
+    object-fit: contain;
+}

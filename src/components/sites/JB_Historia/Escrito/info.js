@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./escrito.module.css";
 
 export const data = {
-  title: <h1>Cañón del Combeima</h1>,
+  title: <h1>San Jorge: Historia, memoria y naturaleza en el corazón de Ibagué</h1>,
   paragraphs: [
     <section key="1">
       <p>

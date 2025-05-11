@@ -1,14 +1,20 @@
-.historie_card_container {
+.mainSite {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2%;
-    gap:3rem;
 }
 
-.historie_card{
+.historie_card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.historie_card {
     width: 400px;
     height: 600px;
     background-color: #536706;
@@ -16,29 +22,43 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap:2rem
+    gap: 2rem;
+    padding:2%
 }
 
-.cardImage{
+.cardImage {
     width: 80%;
     aspect-ratio: 16/9;
     background-color: white;
 }
 
 .tituloCard {
-    font-size: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 100%;
     font-weight: bold;
     color: white
+}
+
+.video_numCap {
+    font-weight: 600;
+}
+
+.video_title {
+    font-weight: 700;
+    font-size: 100%;
 }
 
 .descriptionCard {
     font-size: 100%;
     font-weight: light;
     color: white;
-    padding: 0 4%;
 }
 
-.btn_more{
+.btn_more {
     font-weight: lighter;
     width: 121px;
     height: 39px;
@@ -50,12 +70,11 @@
 }
 
 .btn_more:hover {
-    background-color: #7a8f34; /* Un tono más oscuro al pasar el ratón */
+    background-color: #7a8f34;
+    /* Un tono más oscuro al pasar el ratón */
 }
 
 .btn_more:active {
-    transform: scale(0.95); /* Se reduce un poco al hacer clic */
+    transform: scale(0.95);
+    /* Se reduce un poco al hacer clic */
 }
-
-
-

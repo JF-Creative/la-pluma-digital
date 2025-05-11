@@ -41,7 +41,7 @@ export default function Footer() {
       <div className={styles.logitos}>
         <div className={styles.log_contain}>
           <Image
-            src="/san-jorge_wb.png"
+            src="/sanjorge-cun.png"
             alt="PIA Combeima - CUN Ibagué"
             fill
             className={styles.logoInfFooter}

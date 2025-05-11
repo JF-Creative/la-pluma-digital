@@ -2,40 +2,40 @@ import LogosBN from "@/components/LogosBN";
 import {footerData} from "@/data/footer";
 import Link from "next/link";
 import Image from "next/image";
-import "@/styles/footer.css";
+import styles from '@/styles/footer.module.css'
 
 export default function Footer() {
   return (
-    <footer className="footer-container">
-      <div className="footer-top">
-        <section className="descripcion">
+    <footer className={styles.footerContainer}>
+      <div className={styles.footerTop}>
+        <section className={styles.footerDescription}>
           <p>{footerData.derechos}</p>
         </section>
-        <section className="boomContainer">
-          <p>Más contenidos de estudiantes:</p>
-          <Link href={footerData.boom.url} className="boomLink" target="blank">
-            <div className="boomLogoContainer">
+        <section className={styles.boomContainer}>
+          <p>Más contenidos realizados por los estudiantes de la CUN en El Boom:</p>
+          <Link href={footerData.boom.url} className={styles.boomLink} target="blank">
+            <div className={styles.boomLogoContainer}>
               <Image
                 src={footerData.boom.logo}
                 alt={footerData.boom.url}
                 fill
-                className="logoBoom"
+                className={styles.logoBoom}
               />
             </div>
           </Link>
         </section>
         <LogosBN />
       </div>
-      <div className="footer-bottom">
+      <div className={styles.footerBottom}>
         <p>
           {footerData.poweredBy.texto}  
         </p>
-        <div className="powered-logo-container">
+        <div className={styles.poweredLogoContainer}>
             <Image
               src={footerData.poweredBy.logo}
               alt={footerData.poweredBy.alt}
               fill
-              className="powered-logo"
+              className={styles.poweredLogo}
             />
           </div>
       </div>

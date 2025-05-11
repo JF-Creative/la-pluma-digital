@@ -1,8 +1,99 @@
-.ecomemoria_gallery_container {
-    border: dotted red 6px;
+.structure_container {
     width: 70%;
-    height: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.structure_titleSection {
+    font-weight: 700;
+}
+
+.structure_infoBlock{
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.structure_infoBlock2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    gap: 2rem;
+}
+
+.structure_bloq2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+
+.structure_subtitleSection {
+    font-weight: 600;
+}
+
+.structure_bloq2_imageContainer {
+    position: relative;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.structure_bloq2_image {
+    object-fit: contain;
+}
+
+.structure_infoBlock3{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.structure_bloq3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.structure_bloq3_imageContainer {
+    position: relative;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.structure_bloq3_image {
+    object-fit: contain;
+    filter: drop-shadow(0 2px 5px rgb(0, 0, 0));
+}
+
+.structure_bloq4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.structure_bloq4_imageContainer {
+    position: relative;
+    height: 60%;
+    aspect-ratio: 3 / 4;
+}
+
+.structure_bloq4_image {
+    object-fit: contain;
 }
