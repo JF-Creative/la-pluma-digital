@@ -36,7 +36,7 @@ export default function Statistics() {
           </div>
         ))}
         <div className="btn-container">
-          <Link href={"https://drive.google.com/drive/folders/1EofrqzjstkamQbz3hm2hqPMloXf9WouA?usp=sharing"} target="blank"><button className="btn-statics">Más estadísticas</button></Link>
+          <Link href={"https://drive.google.com/file/d/1pX3qBEejkAdFuUW3T7dMQuVepAHueH6W/view?usp=sharing"} target="blank"><button className="btn-statics">Más estadísticas</button></Link>
         </div>
       </div>
     </div>

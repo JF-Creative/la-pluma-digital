@@ -1,23 +1,31 @@
 .cardContainer {
     width: 100%;
     height: 100%;
-    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
+ background: rgba(0, 49, 0, 0.623);
+box-shadow: 0 8px 32px 0 rgba(30, 75, 10, 0.37);
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+    padding: 2%;
 }
 
 .cardBloq {
+    flex: 1;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .cardTitle {
     font-weight: 600;
-    font-size: 70%;
+    font-size: 100%;
+    color: white;
 }
 
 .btn_verMas {
@@ -30,5 +38,13 @@
 .cardImageBloq {
     position: relative;
     height: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardImage {
+    object-fit: contain;
+    border-radius: 10PX;
 }
