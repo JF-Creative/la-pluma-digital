@@ -13,24 +13,94 @@
     align-items: center;
 }
 
-.video_container{
-    width: 100%;
-    height: 30%;
-    background-color: white;
-}
-
-.shortcuts{
-    flex: 1;
+.indexMainContainer {
+    width: 80%;
+    height: 100%;
     display: grid;
-    width: 70%;
-    height: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+    color: white;
+    text-shadow: 0 0 2px 5px black;
 }
 
-.shortcut_item {
+.indexBloq {
+    width: 100%;
+}
+
+.subBloq1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.subBloq2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.subBloq3 {
+    background-color: #648C3B;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2%;
+}
+
+
+.subBloq4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.subBloq5 {
+    background-color: #648C3B;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid black 1px;
+    padding: 0 2%;
+    gap: 1rem;
+}
+
+.subBloq6 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.subBloq7 {
+    background-color: #648C3B;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+    gap: 1rem;
+}
+
+.imageMenuContainer {
+    position: relative;
+    height: 70%;
+    aspect-ratio: 16/9;
+}
+
+.Image {
+    object-fit: contain;
 }
