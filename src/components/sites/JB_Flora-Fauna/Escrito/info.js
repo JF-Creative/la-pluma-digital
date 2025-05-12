@@ -72,7 +72,7 @@ export const data = {
         <figure className={styles.document_image_container_b2}>
           <div className={styles.document_image}>
             <Image
-              src="/pulmon_verde/1.jpg"
+              src="/pulmon_verde/1.png"
               alt="Fotos_JB-San-Jorge"
               width={1500}
               height={1500}
