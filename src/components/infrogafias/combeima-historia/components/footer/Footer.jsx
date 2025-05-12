@@ -5,30 +5,26 @@ import "./footer.css";
 export default function Footer() {
   const authors = [
     {
-      name: "name1",
-      mail: "name1@cun.edu.co",
-      mailto: "mailto:name1@cun.edu.co"
+      name: "Laura Carolina Villalba García",
+      mail: "laura.villalbag@cun.edu.co",
+      mailto: "mailto:laura.villalbag@cun.edu.co"
     },
     {
-      name: "name2",
-      mail: "name2@cun.edu.co",
-      mailto: "mailto:name1@cun.edu.co"
+      name: "Blader Santiago Jiménez S.",
+      mail: "blader.jimenez@cun.edu.co",
+      mailto: "mailto:blader.jimenez@cun.edu.co"
     },
     {
-      name: "name3",
-      mail: "name3@cun.edu.co",
-      mailto: "mailto:name1@cun.edu.co"
+      name: "María Jose Quintero Falla",
+      mail: "maria.quinterffa@cun.edu.co",
+      mailto: "mailto:maria.quinterffa@cun.edu.co"
     },
   ];
 
   return (
     <footer className="footer-inf-container">
       <div className="footerDescription">
-        Explora el Cañón del Combeima a través de esta infografía interactiva
-        diseñada para viajeros, amantes de la naturaleza y ecoturistas. Con
-        datos estadísticos, entrevistas en video, imágenes y tablas
-        comparativas, entenderás por qué este paraíso natural es uno de los
-        destinos más atractivos para el turismo sostenible en Colombia.
+        Esta infografía presenta un recorrido por la historia del Cañón del Combeima a través de relatos y hechos transmitidos por sus propios habitantes. A través de entrevistas y testimonios, recopilamos memorias vivas que revelan la riqueza cultural, los cambios sociales y los momentos clave que han marcado la identidad de esta región. Una mirada auténtica desde la voz de quienes han vivido y construido la historia del Cañón.
       </div>
       <div className="contacto">
         <h1 className="footerTitle">Elaborado por:</h1>

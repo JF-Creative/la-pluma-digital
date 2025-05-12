@@ -62,9 +62,9 @@ export const data = {
         En este sitio se destacan las colecciones de orquídeas; también, las de
         bromelias, palmas y heliconias, así como una que está compuesta por
         plantas medicinales y aromáticas, Según el botánico estadounidense Tomas
-        Croat del Jardín Botánico de Missouri, nuestro pulmón verde "posee 110
+        Croat del Jardín Botánico de Missouri, nuestro pulmón verde &quot;posee 110
         especies de Aráceas lo que la convierte en la colección más grande de
-        aráceas en Suramérica ".
+        aráceas en Suramérica&quot;.
       </p>
     </section>,
     <section key="2">
