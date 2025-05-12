@@ -19,10 +19,7 @@ export default function Footer() {
   return (
     <div className={styles.footerInfContainer}>
       <div className={styles.description_footer}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-        ipsam unde nobis magni similique exercitationem quod quasi molestiae
-        amet, blanditiis voluptate illum asperiores officiis iusto odit quaerat
-        quam neque nihil.
+        © 2025 El Pulmón Verde. El contenido aquí publicado es meramente con fines académicos en el marco del Proyecto Integrador A2025 de Comunicación Social de la CUN regional Ibagué.
       </div>
       <div className={styles.contacto}>
         <h1 className={styles.staff}>Elaborado por:</h1>
