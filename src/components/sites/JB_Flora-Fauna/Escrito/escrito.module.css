@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d8d8b2;;
+    background-color: #d8d8b2;
+    ;
 }
 
 .JBA_escrito_container {
@@ -14,7 +15,7 @@
     justify-content: center;
     flex-direction: column;
     overflow: auto;
-    gap:2em;
+    gap: 2em;
     padding: 2em;
 }
 
@@ -22,6 +23,10 @@
     width: 100%;
     height: 20%;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .JBA_escrito_body {
@@ -29,6 +34,108 @@
     font-weight: 400;
 }
 
-.JBA_escrito_body p{
+.JBA_escrito_body h1 {
+    margin-bottom: 0.5em;
+}
+
+.JBA_escrito_body h2 {
+    margin-bottom: 0.5em;
+}
+
+.JBA_escrito_body h3 {
+    margin-bottom: 0.5em;
+}
+
+.JBA_escrito_body figure {
     margin-bottom: 1em;
+}
+
+.escrito_iframe_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.JBA_escrito_body p {
+    margin-bottom: 1em;
+}
+
+.document_image_container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.document_images {
+    width: 90%;
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.document_image {
+    width: 45%;
+}
+
+.image_rep_escrito {
+    object-fit: contain;
+}
+
+.document_image_container img,
+.document_images img,
+.document_image img,
+.image_rep_escrito img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section_ol_ul {
+    margin-bottom: 1em;
+    padding-left: 10%;
+}
+
+.link_written_report {
+    color: green;
+    text-decoration: none;
+    transition: color 1s ease, text-decoration 4s ease;
+}
+
+.link_written_report:hover {
+    color: rgb(1, 65, 1);
+    text-decoration: underline;
+}
+
+
+.JBA_image_n_text {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.document_image_container_b2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.JBA_image_n_text_Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.document_description {
+    width: 60%;
+    font-size: 80%;
 }

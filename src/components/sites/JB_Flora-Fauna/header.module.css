@@ -25,8 +25,6 @@
     flex: 1;
 }
 
-
-
 .nav_list {
     display: flex;
     align-self: center;
@@ -37,7 +35,7 @@
 
 .nav_list li a{
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 100%;
 }
 
 

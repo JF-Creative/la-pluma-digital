@@ -3,29 +3,48 @@ import Link from "next/link";
 import stylesHeader from './header.module.css'
 import Image from "next/image";
 import { useState } from "react";
-
-
+import Inicio from "./Inicio/Inicio";
 import Miniserie from "./Miniserie/Miniserie";
 import Reportaje from "./Reportaje/Reportaje";
 import Escrito from "./Escrito/Escrito";
 import Estructura from "./Estructura/Estructura";
 import Nosotros from "./Nosotros/Nosotros"
 import Footer from "./modules/Footer/Footer";
+import Bibliografia from "./Bibliografia/Bibliografía";
 
 export default function Site() {
+  const [currentView, setCurrentView] = useState("inicio");
 
- const [currentMain, setMain] = useState(Inicio())
-
+  const renderView = () => {
+    switch (currentView) {
+      case "inicio":
+        return <Inicio setCurrentView={setCurrentView} />;
+      case "miniserie":
+        return <Miniserie />;
+      case "reportaje":
+        return <Reportaje />;
+      case "escrito":
+        return <Escrito />;
+      case "estructura":
+        return <Estructura />;
+      case "galeria":
+        return <Nosotros />;
+      case "bibliografia":
+        return <Bibliografia/>  
+      default:
+        return <Inicio setMain={setCurrentView} />;
+    }
+  };
 
   const menu = [
-    { label: "Inicio", component: Inicio(), href: "#" },
-    { label: "Reportaje Escrito", component: <Escrito/>, href: "#"},
-    { label: "T.V. Básica", component: <Miniserie/>, href: "#"},
-    { label: "Reportaje Sonoro", component: <Reportaje/>, href: "#"},
-    { label: "Contenido Informativo", component: <Estructura/>, href: "#"},
-    { label: "Galería", component: <Nosotros/>, href: "#"},
+    { label: "Inicio", view: "inicio", href: "#" },
+    { label: "Reportaje Escrito", view: "escrito", href: "#" },
+    { label: "Miniserie", view: "miniserie", href: "#" },
+    { label: "Reportaje Sonoro", view: "reportaje", href: "#" },
+    { label: "Información General", view: "estructura", href: "#" },
+    { label: "Galería", view: "galeria", href: "#" },
+    { label: "Bibliografía", view: "bibliografia", href: "#" }
   ];
-
 
   return (
     <div className={styles.site}>
@@ -42,46 +61,35 @@ export default function Site() {
           /> 
         </Link>
       </div>
-      <nav className={stylesHeader.nav}>
-        <ul className={stylesHeader.nav_list}>
-          {menu.map((item) => (
-            <li key={item.label} className="nav-item">
-              <Link href={item.href} onClick={()=>setMain(item.component)}>{item.label}</Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <div className={stylesHeader.returnToPluma}>
-        <h4 className={stylesHeader.sectionIdHeader}>Volver a Pluma Digital...</h4>
-        <Link href="/"><button className={stylesHeader.plumaBTbck}>Volver a Inicio</button></Link>
-        <Link href="../JB-San-Jorge"><button className={stylesHeader.plumaBTbck}>PIA San Jorge</button></Link>
+        <nav className={stylesHeader.nav}>
+          <ul className={stylesHeader.nav_list}>
+            {menu.map((item) => (
+              <li key={item.label} className="nav-item">
+                <a
+                  href={item.href}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setCurrentView(item.view);
+                  }}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div className={stylesHeader.returnToPluma}>
+          <h4 className={stylesHeader.sectionIdHeader}>Volver a Pluma Digital...</h4>
+          <Link href="/"><button className={stylesHeader.plumaBTbck}>Volver a Inicio</button></Link>
+          <Link href="../JB-San-Jorge"><button className={stylesHeader.plumaBTbck}>PIA San Jorge</button></Link>
+        </div>
       </div>
-    </div>
+
       <div className={styles.mainSite}>
-        {currentMain}
+        {renderView()}
       </div>
+
       <Footer />
     </div>
   );
-}
-
-
-
-function Inicio(){
-  
-  const shortcuts = ["shortcut 1", "shortcut 2", "shortcut 3", "shortcut 4"];
-  
-  return(
-    <>
-    <div>Soy una página de inicio en construcción...</div>
-    {/* <div className={styles.video_container}>Video en dron</div>
-        <div className={styles.shortcuts}>
-          {shortcuts.map((shortcut) => (
-            <h1 key={shortcut} className={styles.shortcut_item}>
-              {shortcut}
-            </h1>
-          ))}
-        </div> */}
-    </>
-  )
 }

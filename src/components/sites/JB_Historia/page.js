@@ -11,7 +11,6 @@ import Escrito from "./Escrito/Escrito";
 import Estructura from "./Estructura/Estructura";
 import Nosotros from "./Nosotros/Nosotros";
 import Footer from "./modules/Footer/Footer";
-import DroneVideo from "./modules/DronVideo/DronVideo";
 
 export default function Site() {
   const [currentView, setCurrentView] = useState("inicio");

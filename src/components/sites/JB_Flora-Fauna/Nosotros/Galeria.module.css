@@ -1,0 +1,75 @@
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.sliderTrack {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.imageWrapper {
+  flex: 0 0 calc(100% / 3);
+  position: relative;
+  height: 300px;
+}
+
+/* La imagen se adapta a su contenedor con `fill` de next/image */
+.sliderImage {
+  object-fit: cover;
+}
+
+/* Botones */
+.sliderButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 20px;
+}
+.left {
+  left: 10px;
+}
+.right {
+  right: 10px;
+}
+
+/* Puntos */
+.sliderDots {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+.active {
+  background-color: green;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .imageWrapper {
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: 480px) {
+  .imageWrapper {
+    flex: 0 0 100%;
+  }
+}
